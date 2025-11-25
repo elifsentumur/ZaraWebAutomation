@@ -1,19 +1,21 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
 public class LoginPage extends BasePage {
-    @FindBy(id = "lzds-:r5:")
+    @FindBy(css = "[data-qa-input-qualifier=\"logonId\"]")
     private WebElement emailInput;
 
 
-    @FindBy(id = "zds-:r8:")
+    @FindBy(css = "[data-qa-input-qualifier=\"password\"]")
     private WebElement passwordInput;
 
 
@@ -25,18 +27,17 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
-    public void waitForLoginPageLoaded() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        wait.until(webDriver ->
-                ((JavascriptExecutor) webDriver)
-                        .executeScript("return document.readyState")
-                        .equals("complete"));
+
+    public void login(String email, String password) throws InterruptedException {
+        waitForVisibility(emailInput);
+        clickWithJS(emailInput);
+        waitForSendKeys(emailInput, email);
+//        emailInput.sendKeys(email);
+        clickWithJS(passwordInput);
+        waitForSendKeys(passwordInput, password);
+        Thread.sleep(6000);
+        clickWithJS(submitButton);
+
     }
 
-    public void login(String email, String password) {
-        waitForVisibility(emailInput);
-        emailInput.sendKeys(email);
-        passwordInput.sendKeys(password);
-        submitButton.click();
-    }
 }
