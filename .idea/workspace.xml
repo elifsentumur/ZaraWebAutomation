@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="897cfd97-1c4f-49bd-a93b-46ceb8320e0e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ZaraSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ZaraSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/LoggerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LoggerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test-data/search_termıs.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test-data/search_termıs.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test-data/urunBilgisi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test-data/urunBilgisi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+    <list default="true" id="897cfd97-1c4f-49bd-a93b-46ceb8320e0e" name="Changes" comment="code push">
       <change beforePath="$PROJECT_DIR$/src/test/java/ZaraSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ZaraSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +92,20 @@
       <option name="presentableId" value="Default" />
       <updated>1764005676786</updated>
     </task>
+    <task id="LOCAL-00001" summary="code push">
+      <option name="closed" value="true" />
+      <created>1764086704591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764086704591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code push" />
+    <option name="LAST_COMMIT_MESSAGE" value="code push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

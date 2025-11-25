@@ -88,14 +88,14 @@ public class ZaraSearchTest extends BaseTest {
         assertEquals(selectedProductName, cartName, "Ürün adı sepette farklı!");
         assertEquals(selectedProductPrice, cartPrice, "Ürün fiyatı sepette farklı!");
         Thread.sleep(3000);
-        // 5️⃣ Ürün adedini 2 yapmak ve doğrulamak
+        //  Ürün adedini 2 yapmak ve doğrulamak
         cartPage.increaseQuantity(); // Adeti 1 artır
 
         int quantity = cartPage.getQuantity();
         System.out.println("Urun sayısı 1 arttı = " + quantity);
         assertEquals(2, quantity, "Ürün adedi 2 değil!");
 
-        // 6️⃣ Ürünü sepetten sil ve sepetin boş olduğunu doğrula
+        //  Ürünü sepetten sil ve sepetin boş olduğunu doğrula
         cartPage.removeProduct();
         System.out.println("Urun sayısı 1 azaldı = ");
         cartPage.removeProduct();
