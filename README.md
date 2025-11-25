@@ -22,8 +22,7 @@ Selenium Web Otomasyon
 ## Çalıştırma Talimatları
 1. Repo’yu klonlayın: `git clone  git@github.com:elifsentumur/ZaraWebAutomation.git
 2. chrome Version : Sürüm 142.0.7444.176 (Resmi Derleme) (64 bit) olmalıdır
-3. Testleri çalıştırın: `mvn test` (Java ise)
-
+3. Testleri çalıştırın: `mvn test`
 ## Notlar
 - Tarayıcı olarak Chrome desteklenmektedir.
 
